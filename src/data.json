@@ -1,0 +1,56 @@
+{
+  "description": [
+    {
+      "name": "элетродинамика",
+      "description": "asdasd",
+      "url": "asdasd",
+      "obj": {
+        "math": true,
+        "phys": true,
+        "pus": true
+      }
+    },
+    {
+      "name": "элетроvtмеха",
+      "description": null,
+      "url": "asdasd",
+      "obj": {
+        "math": true,
+        "phys": true,
+        "pus": true
+      },
+      "min_scope": {
+        "math": 39,
+        "phys": 39,
+        "pus": 39
+      }
+    },
+    {
+      "name": "элетродинамика",
+      "description": "asdasd",
+      "url": "asdasd",
+      "obj": {
+        "math": true,
+        "546": true,
+        "pus": true
+      },
+      "min_scope": {
+      }
+    },
+    {
+      "name": "элетродинамика",
+      "description": "asdasd",
+      "url": "asdasd",
+      "obj": {
+        "math": true,
+        "phys": true,
+        "pus": true
+      },
+      "min_scope": {
+        "math": 39,
+        "phys": 39,
+        "pus": 39
+      }
+    }
+  ]
+}

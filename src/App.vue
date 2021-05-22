@@ -119,7 +119,7 @@ export default {
   data() {
     return {
       myData: '',
-      mySql: ['math', 'phys', 'pus'],
+      mySql: ['bio', 'mat', 'geo','rus','che','obs','inf','eng','phy','ist','iny','lit','ger','fre','tvo','ris'],
       filterArr: [],
       finallyFilterArr: [],
       isBio: false,

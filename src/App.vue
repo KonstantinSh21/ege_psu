@@ -363,10 +363,6 @@ export default {
     max-width: 100%;
   }
 
-  .wrapper__footer--padding {
-    height: 170px;
-  }
-
   .wrapper__header--img {
     width: 100%;
     background-size: 100%;

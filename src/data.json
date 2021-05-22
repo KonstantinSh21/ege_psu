@@ -1,56 +1,290 @@
 {
-  "description": [
-    {
-      "name": "элетродинамика",
-      "description": "asdasd",
-      "url": "asdasd",
-      "obj": {
-        "math": true,
-        "phys": true,
-        "pus": true
-      }
-    },
-    {
-      "name": "элетроvtмеха",
-      "description": null,
-      "url": "asdasd",
-      "obj": {
-        "math": true,
-        "phys": true,
-        "pus": true
-      },
-      "min_scope": {
-        "math": 39,
-        "phys": 39,
-        "pus": 39
-      }
-    },
-    {
-      "name": "элетродинамика",
-      "description": "asdasd",
-      "url": "asdasd",
-      "obj": {
-        "math": true,
-        "546": true,
-        "pus": true
-      },
-      "min_scope": {
-      }
-    },
-    {
-      "name": "элетродинамика",
-      "description": "asdasd",
-      "url": "asdasd",
-      "obj": {
-        "math": true,
-        "phys": true,
-        "pus": true
-      },
-      "min_scope": {
-        "math": 39,
-        "phys": 39,
-        "pus": 39
-      }
-    }
-  ]
+    "description": [
+        {
+            "comment":"Биологический факультет"
+        },
+        {
+            "name": "Биология",
+            "description": "Биологический факультет",
+            "url": "",
+            "obj": {
+                "bio": true,
+                "rus": true,
+                "geo": true
+            },
+            "min_scope": {
+                "rus": 39,
+                "geo": 39,
+                "bio": 39
+            }
+        },
+        {
+            "name": "Биология",
+            "description": "Биологический факультет",
+            "url": "",
+            "obj": {
+                "bio": true,
+                "mat": true,
+                "rus": true
+            },
+            "min_scope": {
+                "mat": 39,
+                "rus": 39,
+                "bio": 39
+            }
+        },
+        {
+            "name": "Водные биоресурсы и аквакультура",
+            "description": "Биологический факультет",
+            "url": "",
+            "obj": {
+                "bio": true,
+                "mat": true,
+                "rus": true,
+                "geo": true
+            },
+            "min_scope": {
+                "mat": 39,
+                "rus": 39,
+                "geo": 39,
+                "bio": 39
+            }
+        },
+        {
+            "name": "Экология и природопользование",
+            "description": "Биологический факультет",
+            "url": "",
+            "obj": {
+                "bio": true,
+                "mat": true,
+                "rus": true,
+                "geo": true
+            },
+            "min_scope": {
+                "mat": 39,
+                "rus": 39,
+                "geo": 39,
+                "bio": 39
+            }
+        },
+        {
+            "name": "Биотехнология",
+            "description": "Биологический факультет",
+            "url": "",
+            "obj": {
+                "bio": true,
+                "mat": true,
+                "rus": true,
+                "che": true
+            },
+            "min_scope": {
+                "mat": 39,
+                "rus": 39,
+                "che": 39,
+                "bio": 39
+            }
+        },
+        {
+            "name": "Педагогическое образование",
+            "description": "Биологический факультет",
+            "url": "",
+            "obj": {
+                "bio": true,
+                "obs": true,
+                "rus": true
+            },
+            "min_scope": {
+                "obs": 39,
+                "rus": 39,
+                "bio": 39
+            }
+        },
+        {"comment":"Геогрфический факультет"},
+        {
+            "name": "География",
+            "description": "Географический факультет",
+            "url": "",
+            "obj": {
+                "geo": true,
+                "mat": true,
+                "rus": true,
+                "inf": true
+            },
+            "min_scope": {
+                "mat": 39,
+                "rus": 39,
+                "geo": 39,
+                "inf": 39
+            }
+        },
+        {
+            "name": "Гидрометеорология",
+            "description": "Географический факультет",
+            "url": "",
+            "obj": {
+                "geo": true,
+                "mat": true,
+                "rus": true,
+                "inf": true
+            },
+            "min_scope": {
+                "mat": 39,
+                "rus": 39,
+                "geo": 39,
+                "inf": 39
+            }
+        },
+        {
+            "name": "Прикладная гидрометеорология",
+            "description": "Географический факультет",
+            "url": "",
+            "obj": {
+                "geo": true,
+                "mat": true,
+                "rus": true,
+                "inf": true
+            },
+            "min_scope": {
+                "mat": 39,
+                "rus": 39,
+                "geo": 39,
+                "inf": 39
+            }
+        },
+        {
+            "name": "Картография и геоинформатика",
+            "description": "Географический факультет",
+            "url": "",
+            "obj": {
+                "geo": true,
+                "mat": true,
+                "rus": true,
+                "inf": true
+            },
+            "min_scope": {
+                "mat": 39,
+                "rus": 39,
+                "geo": 39,
+                "inf": 39
+            }
+        },
+        {
+            "name": "Экология и природопользование",
+            "description": "Географический факультет",
+            "url": "",
+            "obj": {
+                "geo": true,
+                "mat": true,
+                "rus": true,
+                "bio": true
+            },
+            "min_scope": {
+                "mat": 39,
+                "rus": 39,
+                "geo": 39,
+                "bio": 39
+            }
+        },
+        {
+            "name": "Экология и природопользование (программа, реализуемая на английском языке)",
+            "description": "Географический факультет",
+            "url": "",
+            "obj": {
+                "geo": true,
+                "eng": true,
+                "rus": true
+            },
+            "min_scope": {
+                "eng": 39,
+                "rus": 39,
+                "geo": 39
+            }
+        },
+        {
+            "name": "Лесное дело",
+            "description": "Географический факультет",
+            "url": "",
+            "obj": {
+                "geo": true,
+                "mat": true,
+                "rus": true,
+                "bio": true
+            },
+            "min_scope": {
+                "mat": 39,
+                "rus": 39,
+                "geo": 39,
+                "bio": 39
+            }
+        },
+        {
+            "name": "Сервис",
+            "description": "Географический факультет",
+            "url": "",
+            "obj": {
+                "geo": true,
+                "mat": true,
+                "rus": true,
+                "obs": true
+            },
+            "min_scope": {
+                "mat": 39,
+                "rus": 39,
+                "geo": 39,
+                "obs": 39
+            }
+        },
+        {
+            "name": "Туризм",
+            "description": "Географический факультет",
+            "url": "",
+            "obj": {
+                "geo": true,
+                "ist": true,
+                "rus": true,
+                "obs": true
+            },
+            "min_scope": {
+                "ist": 39,
+                "rus": 39,
+                "geo": 39,
+                "obs": 39
+            }
+        },
+        {
+            "name": "Гостиничное дело",
+            "description": "Географический факультет",
+            "url": "",
+            "obj": {
+                "obs": true,
+                "ist": true,
+                "rus": true,
+                "eny": true
+            },
+            "min_scope": {
+                "obs": 39,
+                "ist": 39,
+                "rus": 39,
+                "eny": 39
+            }
+        },
+        {"comment":"Геологический факультет"},
+        {
+            "name": "Педагогическое образование",
+            "description": "Географический факультет",
+            "url": "",
+            "obj": {
+                "geo": true,
+                "mat": true,
+                "rus": true,
+                "inf": true
+            },
+            "min_scope": {
+                "mat": 39,
+                "rus": 39,
+                "geo": 39,
+                "inf": 39
+            }
+        }
+    ]
 }

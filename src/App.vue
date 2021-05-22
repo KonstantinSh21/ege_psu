@@ -18,67 +18,65 @@
               <div class="wrapper__cb">
                 <div class="wrapper__cb-items">
                   <div class="wrapper__cb-item">
-                    <input type="checkbox"/>
+                    <input v-model="isRus" type="checkbox"/>
                     <span>Русский язык</span>
                   </div>
 
                   <div class="wrapper__cb-item">
-                    <input type="checkbox"/>
+                    <input v-model="isMat" type="checkbox"/>
                     <span>Математика (проф.ур.)</span>
                   </div>
 
                   <div class="wrapper__cb-item">
-                    <input type="checkbox"/>
+                    <input v-model="isInf" type="checkbox"/>
                     <span>Информатика и ИКТ</span>
                   </div>
 
                   <div class="wrapper__cb-item">
-                    <input type="checkbox"/>
+                    <input v-model="isPhy" type="checkbox"/>
                     <span>Физика</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input type="checkbox"/>
+                    <input  v-model="isGeo" type="checkbox"/>
                     <span>География</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input type="checkbox"/>
+                    <input v-model="isEng" type="checkbox"/>
                     <span>Английский язык</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input type="checkbox"/>
+                    <input  v-model="isFre" type="checkbox"/>
                     <span>Французский язык</span>
                   </div>
                 </div>
                 <div class="wrapper__cb-items">
-
                   <div class="wrapper__cb-item">
-                    <input type="checkbox"/>
+                    <input v-model="isLit" type="checkbox"/>
                     <span>Литература</span>
                   </div>
 
                   <div class="wrapper__cb-item">
-                    <input type="checkbox"/>
+                    <input v-model="isIst" type="checkbox"/>
                     <span>История</span>
                   </div>
-
                   <div class="wrapper__cb-item">
-                    <input v-model="open" type="checkbox"/>
+                    <input v-model="isObs" type="checkbox"/>
                     <span>Обществознание</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input v-model="open" type="checkbox"/>
+                    <input v-model="isChe" type="checkbox"/>
                     <span>Химия</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input v-model="open" type="checkbox"/>
+                    <input v-model="isBio" type="checkbox"/>
                     <span>Биология</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input v-model="open" type="checkbox"/>
+                    <input v-model="isGer" type="checkbox"/>
                     <span>Немецкий язык</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input v-model="open" type="checkbox"/>
+                    <input v-model="isIny" type="checkbox"/>
                     <span>Другой иностранный язык</span>
                   </div>
                 </div>
@@ -124,7 +122,22 @@ export default {
       mySql: ['math', 'phys', 'pus'],
       filterArr: [],
       finallyFilterArr: [],
-      open: true,
+      isBio: false,
+      isMat: false,
+      isGeo: false,
+      isRus: false,
+      isChe: false,
+      isObs: false,
+      isInf: false,
+      isEng: false,
+      isPhy: false,
+      isIst: false,
+      isIny: false,
+      isLit: false,
+      isGer: false,
+      isFre: false,
+      isTvo: false,
+      isRis: false
     }
   },
   mounted() {

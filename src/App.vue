@@ -18,65 +18,88 @@
               <div class="wrapper__cb">
                 <div class="wrapper__cb-items">
                   <div class="wrapper__cb-item">
-                    <input v-model="isRus" type="checkbox"/>
+                    <!--                    //Биология              bio 39-->
+                    <!--                    //Математика            mat 39-->
+                    <!--                    //Геогрфия              geo 40-->
+                    <!--                    //Русский язык          rus 40-->
+                    <!--                    //Химия                 che 39-->
+                    <!--                    //Обществознание        obs 45-->
+                    <!--                    //Информатика и ИКТ     inf 44-->
+                    <!--                    //Английский            eng 30-->
+                    <!--                    //Физика                phy 39-->
+                    <!--                    //История               ist 35-->
+                    <!--                    //Иностранный язык      iny 30-->
+                    <!--                    //Литература            lit 40-->
+                    <!--                    //Немецкий язык         ger 30-->
+                    <!--                    //Французский язык      fre 30-->
+                    <!--                    //Творческая работа     tvo 50-->
+                    <!--                    //Рисунок               ris 50-->
+                    <input @click="Click('rus', !isRus)" v-model="isRus" type="checkbox"/>
                     <span>Русский язык</span>
                   </div>
 
                   <div class="wrapper__cb-item">
-                    <input v-model="isMat" type="checkbox"/>
+                    <input @click="Click('mat', !isMat)" v-model="isMat" type="checkbox"/>
                     <span>Математика (проф.ур.)</span>
                   </div>
 
                   <div class="wrapper__cb-item">
-                    <input v-model="isInf" type="checkbox"/>
+                    <input @click="Click('inf', !isInf)" v-model="isInf" type="checkbox"/>
                     <span>Информатика и ИКТ</span>
                   </div>
 
                   <div class="wrapper__cb-item">
-                    <input v-model="isPhy" type="checkbox"/>
+                    <input @click="Click('phy', !isPhy)" v-model="isPhy" type="checkbox"/>
                     <span>Физика</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input  v-model="isGeo" type="checkbox"/>
+                    <input @click="Click('geo', !isGeo)" v-model="isGeo" type="checkbox"/>
                     <span>География</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input v-model="isEng" type="checkbox"/>
+                    <input @click="Click('eng', !isEng)" v-model="isEng" type="checkbox"/>
                     <span>Английский язык</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input  v-model="isFre" type="checkbox"/>
+                    <input @click="Click('fre', !isFre)" v-model="isFre" type="checkbox"/>
                     <span>Французский язык</span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('lit', !isLit)" v-model="isLit" type="checkbox"/>
+                    <span>Литература</span>
                   </div>
                 </div>
                 <div class="wrapper__cb-items">
                   <div class="wrapper__cb-item">
-                    <input v-model="isLit" type="checkbox"/>
-                    <span>Литература</span>
-                  </div>
-
-                  <div class="wrapper__cb-item">
-                    <input v-model="isIst" type="checkbox"/>
+                    <input @click="Click('ist', !isIst)" v-model="isIst" type="checkbox"/>
                     <span>История</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input v-model="isObs" type="checkbox"/>
+                    <input @click="Click('obs', !isObs)" v-model="isObs" type="checkbox"/>
                     <span>Обществознание</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input v-model="isChe" type="checkbox"/>
+                    <input @click="Click('che', !isChe)" v-model="isChe" type="checkbox"/>
                     <span>Химия</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input v-model="isBio" type="checkbox"/>
+                    <input @click="Click('bio', !isBio)" v-model="isBio" type="checkbox"/>
                     <span>Биология</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input v-model="isGer" type="checkbox"/>
+                    <input @click="Click('ger', !isGer)" v-model="isGer" type="checkbox"/>
                     <span>Немецкий язык</span>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input v-model="isIny" type="checkbox"/>
+                    <input @click="Click('ris', !isRis)" v-model="isRis" type="checkbox"/>
+                    <span>Рисунок</span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('tvo', !isTvo)" v-model="isTvo" type="checkbox"/>
+                    <span>Творческое задание</span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('iny', !isIny)" v-model="isIny" type="checkbox"/>
                     <span>Другой иностранный язык</span>
                   </div>
                 </div>
@@ -89,19 +112,17 @@
               <div class="wrapper__footer-items">
                 <div :class="open ? 'wrapper__footer-text--opacity' :'wrapper__footer-text--none'">
                   <div class="footer__footer">
-                    <strong><a
-                        href="http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-geodeziya-i-distantsionnoe-zondirovanie-bakalavriat"
-                        target="_blank" rel="nofollow">Геодезия и дистанционное зондирование</a></strong>
-                    <br>
-                    <div class="text">
-                      <em class="">Профиль: Дистанционное зондирование</em>
-                      <br>Очная форма обучения<br>
-                      <strong>Минимальные баллы:</strong> <br>
-                      Математика – 39<br>
-                      Информатика и ИКТ – 42<br>
-                      Русский язык – 40
+                    <div :key="item.id" v-for="item in finallyFilterArr">
+                      <strong><a
+                          v-bind:href="'http://' + item.url"
+                          target="_blank"><em>{{item.name}}</em></a></strong>
+                      <div class="text">
+                        Очная форма обучения
+                        <div>
+                          {{item.desc_scope}}
+                        </div>
+                      </div><br>
                     </div>
-
                   </div>
                 </div>
               </div>
@@ -119,9 +140,10 @@ export default {
   data() {
     return {
       myData: '',
-      mySql: ['bio', 'mat', 'geo','rus','che','obs','inf','eng','phy','ist','iny','lit','ger','fre','tvo','ris'],
+      selectObj: [],
       filterArr: [],
       finallyFilterArr: [],
+      open: false,
       isBio: false,
       isMat: false,
       isGeo: false,
@@ -147,23 +169,51 @@ export default {
     this.myData = JSON.parse(JSON.stringify(this.myData))
   },
   methods: {
-    Click() {
-      //пока сделал на 3 клика потом будет на кол-во кликов
+    Click(name, isValue) {
+      this.open = false;
+      this.filterArr = [];
+      this.finallyFilterArr = [];
+      //проверяю, чтобы переведен чекбокс в true или false
+      if (isValue) {
+        this.selectObj.push(name)
+      } else {
+        let i = this.selectObj.indexOf(name)
+        let firstArr = this.selectObj.splice(0, i);
+        let secondArr = this.selectObj.splice(i++);
+        this.selectObj = [...firstArr, ...secondArr]
+      }
+
+      //нет смысла искать элемент когда меньше 3 предметов
+      if (this.selectObj.length < 3) {
+        this.filterArr = [];
+        return false;
+      }
+
+      //сложная херовнина, но я бегу по всем элементам главного массива и собираю данные по валидному имени
+      //но при добовлениями новых пунктов докидывались новые и дублировались
       for (let i = 0; i < this.myData.description.length; i++) {
-        for (let b = 0; b < 3; b++) {
+        let countObj = 0;
+        countObj = 0
+        //тут я смотрю какие предеметы выбраны и буду искать какие есть у него
+        for (let b = 0; b < this.selectObj.length; b++) {
+
           for (let key in this.myData.description[i].obj) {
-            if (key === this.mySql[b]) {
-              this.filterArr.push(this.myData.description[i]);
-              if (this.filterArr.length > 2) {
-                this.filterArr = []
-                this.finallyFilterArr.push(this.myData.description[i])
-              }
+            if (key === this.selectObj[b]) {
+              countObj++
+            }
+            if (countObj === 3) {
+              this.filterArr.push(this.myData.description[i])
+              this.open = true;
             }
           }
         }
       }
+      this.finallyFilterArr = this.filterArr.filter((item, index) => {
+        return this.filterArr.indexOf(item) === index;
+      });
     },
-  },
+  }
+  ,
 }
 </script>
 <style>
@@ -264,7 +314,6 @@ export default {
 }
 
 .wrapper__footer-text--opacity {
-  height: 150px;
   opacity: 1;
   transition: 0.5s;
 }
@@ -317,7 +366,8 @@ export default {
   .wrapper__footer--padding {
     height: 170px;
   }
-  .wrapper__header--img{
+
+  .wrapper__header--img {
     width: 100%;
     background-size: 100%;
     background-repeat: no-repeat;

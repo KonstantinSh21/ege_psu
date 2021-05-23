@@ -117,6 +117,7 @@
                           v-bind:href="'http://' + item.url"
                           target="_blank"><em>{{item.name}}</em></a></strong>
                       <div class="text">
+                        <i>{{item.desc}}</i><br>
                         {{item.id}}
                         Очная форма обучения
                         <div>

@@ -35,19 +35,16 @@
                     <!--                    //Творческая работа     tvo 50-->
                     <!--                    //Рисунок               ris 50-->
                     <input @click="Click('rus', !isRus)" v-model="isRus" type="checkbox"/>
-                    <span>Русский язык</span>
+                    <span>Русский язык <b>40</b></span>
                   </div>
-
                   <div class="wrapper__cb-item">
                     <input @click="Click('mat', !isMat)" v-model="isMat" type="checkbox"/>
                     <span>Математика (проф.ур.)</span>
                   </div>
-
                   <div class="wrapper__cb-item">
                     <input @click="Click('inf', !isInf)" v-model="isInf" type="checkbox"/>
                     <span>Информатика и ИКТ</span>
                   </div>
-
                   <div class="wrapper__cb-item">
                     <input @click="Click('phy', !isPhy)" v-model="isPhy" type="checkbox"/>
                     <span>Физика</span>
@@ -118,10 +115,15 @@
                           target="_blank"><em>{{item.name}}</em></a></strong>
                       <div class="text">
                         <i>{{item.desc}}</i><br>
-                        {{item.id}}
+                        {{item.id}}<br>
+                        {{item.desc_scope}}
                         Очная форма обучения
                         <div>
-                          {{item.desc_scope}}
+                          <ul>
+                           <li>{{item.scope1}}</li>
+                           <li>{{item.scope2}}</li>
+                           <li>{{item.scope3}}</li>
+                          </ul>
                         </div>
                       </div><br>
                     </div>

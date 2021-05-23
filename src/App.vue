@@ -109,7 +109,7 @@
               <div class="wrapper__footer-items">
                 <div :class="open ? 'wrapper__footer-text--opacity' :'wrapper__footer-text--none'">
                   <div class="footer__footer">
-                    <div :key="item.id" v-for="item in finallyFilterArr">
+                    <div :key="item.id + index" v-for="(item, index) in finallyFilterArr">
                       <strong><a
                           v-bind:href="'http://' + item.url"
                           target="_blank"><em>{{item.name}}</em></a></strong>

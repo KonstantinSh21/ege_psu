@@ -116,7 +116,6 @@
                                               target="_blank"><em>{{ item.name }}</em></a></strong>
                                             <div class="text">
                                                 <i>{{ item.desc }}</i><br>
-                                                {{ item.id }}<br>
                                                 Очная форма обучения
                                                 <div>
                                                     <ul>

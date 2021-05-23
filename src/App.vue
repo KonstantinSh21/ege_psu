@@ -180,7 +180,7 @@ export default {
       } else {
         let i = this.selectObj.indexOf(name)
         let firstArr = this.selectObj.splice(0, i);
-        let secondArr = this.selectObj.splice(i++);
+        let secondArr = this.selectObj.splice(i);
         this.selectObj = [...firstArr, ...secondArr]
       }
 

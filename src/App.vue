@@ -178,10 +178,14 @@ export default {
       if (isValue) {
         this.selectObj.push(name)
       } else {
-        let i = this.selectObj.indexOf(name)
-        let firstArr = this.selectObj.splice(0, i);
-        let secondArr = this.selectObj.splice(i);
-        this.selectObj = [...firstArr, ...secondArr]
+        let i = 0;
+        while (i < this.selectObj.length) {
+          if (this.selectObj[i] === name) {
+            this.selectObj.splice(i, 1);
+          } else {
+            ++i;
+          }
+        }
       }
 
       //нет смысла искать элемент когда меньше 3 предметов

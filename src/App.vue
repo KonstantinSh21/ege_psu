@@ -117,7 +117,6 @@
                                             <div class="text">
                                                 <i>{{ item.desc }}</i><br>
                                                 {{ item.id }}<br>
-                                                {{ item.desc_scope }}
                                                 Очная форма обучения
                                                 <div>
                                                     <ul>

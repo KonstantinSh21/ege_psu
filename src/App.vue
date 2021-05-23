@@ -15,95 +15,95 @@
                         </div>
                     </div>
                     <div class="wrapper__body-cb">
-                        <div class="wrapper__body-header">
-                            <div class="wrapper__cb">
-                                <div class="wrapper__cb-items">
-                                    <div class="wrapper__cb-item">
-                                        <!--                    //Биология              bio 39-->
-                                        <!--                    //Математика            mat 39-->
-                                        <!--                    //Геогрфия              geo 40-->
-                                        <!--                    //Русский язык          rus 40-->
-                                        <!--                    //Химия                 che 39-->
-                                        <!--                    //Обществознание        obs 45-->
-                                        <!--                    //Информатика и ИКТ     inf 44-->
-                                        <!--                    //Английский            eng 30-->
-                                        <!--                    //Физика                phy 39-->
-                                        <!--                    //История               ist 35-->
-                                        <!--                    //Иностранный язык      iny 30-->
-                                        <!--                    //Литература            lit 40-->
-                                        <!--                    //Немецкий язык         ger 30-->
-                                        <!--                    //Французский язык      fre 30-->
-                                        <!--                    //Творческая работа     tvo 50-->
-                                        <!--                    //Рисунок               ris 50-->
-                                        <input @click="Click('rus', !isRus)" v-model="isRus" type="checkbox"/>
-                                        <span>Русский язык <b>40</b></span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('mat', !isMat)" v-model="isMat" type="checkbox"/>
-                                        <span>Математика (проф.ур.)</span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('inf', !isInf)" v-model="isInf" type="checkbox"/>
-                                        <span>Информатика и ИКТ</span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('phy', !isPhy)" v-model="isPhy" type="checkbox"/>
-                                        <span>Физика</span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('geo', !isGeo)" v-model="isGeo" type="checkbox"/>
-                                        <span>География</span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('eng', !isEng)" v-model="isEng" type="checkbox"/>
-                                        <span>Английский язык</span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('fre', !isFre)" v-model="isFre" type="checkbox"/>
-                                        <span>Французский язык</span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('lit', !isLit)" v-model="isLit" type="checkbox"/>
-                                        <span>Литература</span>
-                                    </div>
-                                </div>
-                                <div class="wrapper__cb-items">
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('ist', !isIst)" v-model="isIst" type="checkbox"/>
-                                        <span>История</span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('obs', !isObs)" v-model="isObs" type="checkbox"/>
-                                        <span>Обществознание</span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('che', !isChe)" v-model="isChe" type="checkbox"/>
-                                        <span>Химия</span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('bio', !isBio)" v-model="isBio" type="checkbox"/>
-                                        <span>Биология</span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('ger', !isGer)" v-model="isGer" type="checkbox"/>
-                                        <span>Немецкий язык</span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('ris', !isRis)" v-model="isRis" type="checkbox"/>
-                                        <span>Рисунок</span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('tvo', !isTvo)" v-model="isTvo" type="checkbox"/>
-                                        <span>Творческое задание</span>
-                                    </div>
-                                    <div class="wrapper__cb-item">
-                                        <input @click="Click('iny', !isIny)" v-model="isIny" type="checkbox"/>
-                                        <span>Другой иностранный язык</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="wrapper__body-header">
+              <div class="wrapper__cb">
+                <div class="wrapper__cb-items">
+                  <div class="wrapper__cb-item">
+                    <!--                    //Биология              bio 39-->
+                    <!--                    //Математика            mat 39-->
+                    <!--                    //Геогрфия              geo 40-->
+                    <!--                    //Русский язык          rus 40-->
+                    <!--                    //Химия                 che 39-->
+                    <!--                    //Обществознание        obs 45-->
+                    <!--                    //Информатика и ИКТ     inf 44-->
+                    <!--                    //Английский            eng 30-->
+                    <!--                    //Физика                phy 39-->
+                    <!--                    //История               ist 35-->
+                    <!--                    //Иностранный язык      iny 30-->
+                    <!--                    //Литература            lit 40-->
+                    <!--                    //Немецкий язык         ger 30-->
+                    <!--                    //Французский язык      fre 30-->
+                    <!--                    //Творческая работа     tvo 50-->
+                    <!--                    //Рисунок               ris 50-->
+                    <input @click="Click('rus', !isRus)" v-model="isRus" type="checkbox"/>
+                    <span>Русский язык <b>(40)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('mat', !isMat)" v-model="isMat" type="checkbox"/>
+                    <span>Математика (проф.ур.) <b>(39)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('inf', !isInf)" v-model="isInf" type="checkbox"/>
+                    <span>Информатика и ИКТ <b>(44)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('phy', !isPhy)" v-model="isPhy" type="checkbox"/>
+                    <span>Физика <b>(39)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('geo', !isGeo)" v-model="isGeo" type="checkbox"/>
+                    <span>География <b>(40)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('eng', !isEng)" v-model="isEng" type="checkbox"/>
+                    <span>Английский язык <b>(30)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('fre', !isFre)" v-model="isFre" type="checkbox"/>
+                    <span>Французский язык <b>(30)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('lit', !isLit)" v-model="isLit" type="checkbox"/>
+                    <span>Литература <b>(40)</b></span>
+                  </div>
+                </div>
+                <div class="wrapper__cb-items">
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('ist', !isIst)" v-model="isIst" type="checkbox"/>
+                    <span>История <b>(35)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('obs', !isObs)" v-model="isObs" type="checkbox"/>
+                    <span>Обществознание <b>(45)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('che', !isChe)" v-model="isChe" type="checkbox"/>
+                    <span>Химия <b>(39)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('bio', !isBio)" v-model="isBio" type="checkbox"/>
+                    <span>Биология <b>(39)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('ger', !isGer)" v-model="isGer" type="checkbox"/>
+                    <span>Немецкий язык <b>(30)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('ris', !isRis)" v-model="isRis" type="checkbox"/>
+                    <span>Рисунок <b>(50)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('tvo', !isTvo)" v-model="isTvo" type="checkbox"/>
+                    <span>Творческая работа <b>(50)</b></span>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('iny', !isIny)" v-model="isIny" type="checkbox"/>
+                    <span>Другой иностранный язык <b>(30)</b></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
                     <div class="wrapper__footer--full">
                         <div :class="open ? 'wrapper__footer--padding' :'wrapper__footer--padding-none'">

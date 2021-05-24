@@ -1,6 +1,8 @@
 <template>
     <div id="app">
         <div class="wrapper">
+          <EasterEgg v-show="openItem"/>
+          <div @dblclick="easterEgg()" class="wrapper__item"></div>
             <div class="wrapper__main-body">
                 <div class="wrapper__header--img"></div>
                 <div class="wrapper__body">
@@ -139,6 +141,7 @@
 </template>
 
 <script>
+import EasterEgg from "./EasterEgg";
 export default {
     name: 'App',
     data() {
@@ -148,6 +151,7 @@ export default {
             filterArr: [],
             finallyFilterArr: [],
             open: false,
+            openItem: false,
             isBio: false,
             isMat: false,
             isGeo: false,
@@ -171,6 +175,9 @@ export default {
         const userData = require('./data.json');
         this.myData = userData;
         this.myData = JSON.parse(JSON.stringify(this.myData))
+    },
+    components: {
+      EasterEgg
     },
     methods: {
         Click(name, isValue) {
@@ -229,6 +236,10 @@ export default {
                 return acc;
             }, [])
         },
+
+      easterEgg() {
+        this.openItem = !this.openItem;
+      }
     },
 }
 </script>
@@ -237,6 +248,12 @@ export default {
     padding: 0;
     margin: 0;
     font-family: Lucida Grande, sans-serif;
+}
+
+.wrapper__item {
+  opacity: 0;
+  height: 20px;
+  width: 20px;
 }
 
 .wrapper {

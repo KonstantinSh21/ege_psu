@@ -7,7 +7,7 @@
                 <div class="wrapper__header--img"></div>
                 <div class="wrapper__body">
                     <div class="wrapper__body-header">
-                        <h1 class="wrapper__body-header--strong text">
+                        <h1 class="wrapper__body-header--strong text" align=center>
                             Навигатор ЕГЭ в ПГНИУ
                         </h1>
                         <div class="wrapper__body-header--desc text">
@@ -118,7 +118,8 @@
                                               target="_blank"><em>{{ item.name }}</em></a></strong>
                                             <div class="text">
                                                 <i>{{ item.desc }}</i><br>
-                                                Очная форма обучения
+                                                {{ item.prof }}
+                                                {{ item.form }}
                                                 <div>
                                                     <ul>
                                                         <li>{{ item.scope1 }}</li>
@@ -268,12 +269,13 @@ export default {
 
 
 .wrapper__header--img {
-    width: 100%;
+    width: 90%;
+    margin: 5%;
     background-size: 100% 129px;
     background-repeat: no-repeat;
-    background-image: url(https://www.jotform.com/uploads/guest_201110705335035/form_files/logo_pgniu.5eb3f33f7392b5.32949480.png);
+    background-image: url(http://www.psu.ru/templates/xhtml/images/company.png);
     display: inline-block;
-    height: 129px;
+    height: 138px;
 }
 
 .wrapper__body {
@@ -286,7 +288,8 @@ export default {
 }
 
 .wrapper__body-header--desc {
-    font-size: 14px;
+    text-align: justify;
+    font-size: 17px;
     line-height: 1.5em;
     font-style: normal;
     margin: 3px 0 0;
@@ -361,6 +364,15 @@ export default {
     font-size: 14px;
     line-height: 20px;
 }
+a:link {
+    color: #C62E3E; /* Цвет ссылок */   
+}
+a:active{   
+    color: #C62E3E; /* Цвет активной ссылки */   
+}
+a:visited{   
+    color: #C62E3E; /* Цвет посещенной ссылки */   
+}
 
 @media screen and (max-width: 1600px) {
     .wrapper__main-body {
@@ -397,12 +409,13 @@ export default {
     }
 
     .wrapper__header--img {
-        width: 100%;
+        width: 90%;
+        margin: 5%;
         background-size: 100%;
         background-repeat: no-repeat;
-        background-image: url(https://www.jotform.com/uploads/guest_201110705335035/form_files/logo_pgniu.5eb3f33f7392b5.32949480.png);
+        background-image: url(http://www.psu.ru/templates/xhtml/images/company.png);
         display: inline-block;
-        height: 100px;
+        height: 100%;
     }
 }
 </style>

@@ -118,8 +118,8 @@
                                               target="_blank"><em>{{ item.name }}</em></a></strong>
                                             <div class="text">
                                                 <i>{{ item.desc }}</i><br>
-                                                {{ item.prof }}
-                                                {{ item.form }}
+                                                Профили обучения: <i>{{ item.prof }}</i><br>
+                                                Форма обучения: <i>{{ item.form }}</i><br>
                                                 <div>
                                                     <ul>
                                                         <li>{{ item.scope1 }}</li>

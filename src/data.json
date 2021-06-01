@@ -246,7 +246,7 @@
             "desc": "Географический факультет",
             "prof": "Геоинформатика",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-kartografiya-i-geoinformatika",
+            "url": "www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-kartografiya-i-geoinformatika",
             "obj": {
                 "geo": true,
                 "mat": true,
@@ -262,7 +262,7 @@
             "desc": "Географический факультет",
             "prof": "Геоинформатика",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-kartografiya-i-geoinformatika",
+            "url": "www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-kartografiya-i-geoinformatika",
             "obj": {
                 "geo": true,
                 "inf": true,
@@ -278,7 +278,7 @@
             "desc": "Географический факультет",
             "prof": "Природопользование",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekologiya-i-prirodopolzovanie",
+            "url": "www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekologiya-i-prirodopolzovanie",
             "obj": {
                 "geo": true,
                 "mat": true,
@@ -294,7 +294,7 @@
             "desc": "Географический факультет",
             "prof": "Природопользование",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekologiya-i-prirodopolzovanie",
+            "url": "www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekologiya-i-prirodopolzovanie",
             "obj": {
                 "geo": true,
                 "bio": true,
@@ -310,7 +310,7 @@
             "desc": "Географический факультет",
             "prof": "Экологическая инженерия (программа, реализуемая на английском языке)",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekologiya-i-prirodopolzovanie",
+            "url": "www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekologiya-i-prirodopolzovanie",
             "obj": {
                 "geo": true,
                 "eng": true,
@@ -326,7 +326,7 @@
             "desc": "Географический факультет",
             "prof": "Лесное природопользование",
             "form": "заочная",
-            "url": "http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-lesnoe-delo-bakalavriat",
+            "url": "www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-lesnoe-delo-bakalavriat",
             "obj": {
                 "geo": true,
                 "mat": true,
@@ -342,7 +342,7 @@
             "desc": "Географический факультет",
             "prof": "Лесное природопользование",
             "form": "заочная",
-            "url": "http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-lesnoe-delo-bakalavriat",
+            "url": "www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-lesnoe-delo-bakalavriat",
             "obj": {
                 "bio": true,
                 "mat": true,
@@ -358,7 +358,7 @@
             "desc": "Географический факультет",
             "prof": "Социально-культурный сервис",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-servis",
+            "url": "www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-servis",
             "obj": {
                 "geo": true,
                 "mat": true,
@@ -374,7 +374,7 @@
             "desc": "Географический факультет",
             "prof": "Социально-культурный сервис",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-servis",
+            "url": "www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-servis",
             "obj": {
                 "obs": true,
                 "mat": true,
@@ -390,7 +390,7 @@
             "desc": "Географический факультет",
             "prof": "Технология и организация туроператорских и турагентских услуг",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-turizm",
+            "url": "www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-turizm",
             "obj": {
                 "geo": true,
                 "ist": true,
@@ -406,7 +406,7 @@
             "desc": "Географический факультет",
             "prof": "Технология и организация туроператорских и турагентских услуг",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-turizm",
+            "url": "www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-turizm",
             "obj": {
                 "obs": true,
                 "ist": true,
@@ -422,7 +422,7 @@
             "desc": "Географический факультет",
             "prof": "Гостиничная деятельность",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-gostinichnoe-delo-bakalavriat",
+            "url": "www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-gostinichnoe-delo-bakalavriat",
             "obj": {
                 "obs": true,
                 "rus": true,
@@ -438,7 +438,7 @@
             "desc": "Географический факультет",
             "prof": "Гостиничная деятельность",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-gostinichnoe-delo-bakalavriat",
+            "url": "www.psu.ru/fakultety/geograficheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-gostinichnoe-delo-bakalavriat",
             "obj": {
                 "obs": true,
                 "rus": true,
@@ -454,7 +454,7 @@
             "desc": "Геологический факультет",
             "prof": "Геология, Геология и геохимия горючих ископаемых, Геофизика, Гидрогеология и инженерная геология",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/geologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-geologiya-bakalavriat",
+            "url": "www.psu.ru/fakultety/geologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-geologiya-bakalavriat",
             "obj": {
                 "geo": true,
                 "mat": true,
@@ -470,7 +470,7 @@
             "desc": "Геологический факультет",
             "prof": "Геология, Геология и геохимия горючих ископаемых, Геофизика, Гидрогеология и инженерная геология",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/geologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-geologiya-bakalavriat",
+            "url": "www.psu.ru/fakultety/geologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-geologiya-bakalavriat",
             "obj": {
                 "phy": true,
                 "mat": true,
@@ -486,7 +486,7 @@
             "desc": "Геологический факультет",
             "prof": "Геофизические методы поисков и разведки месторождений полезных ископаемых",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/geologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-tekhnologiya-geologicheskoj-razvedki",
+            "url": "www.psu.ru/fakultety/geologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-tekhnologiya-geologicheskoj-razvedki",
             "obj": {
                 "phy": true,
                 "mat": true,
@@ -502,7 +502,7 @@
             "desc": "Геологический факультет",
             "prof": "Геофизические методы поисков и разведки месторождений полезных ископаемых",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/geologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-tekhnologiya-geologicheskoj-razvedki",
+            "url": "www.psu.ru/fakultety/geologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-tekhnologiya-geologicheskoj-razvedki",
             "obj": {
                 "inf": true,
                 "mat": true,
@@ -518,7 +518,7 @@
             "desc": "Историко-политологический факультет",
             "prof": "программа широкого профиля",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-gosudarstvennoe-i-munitsipalnoe-upravlenie-bakalavriat",
+            "url": "www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-gosudarstvennoe-i-munitsipalnoe-upravlenie-bakalavriat",
             "obj": {
                 "obs": true,
                 "mat": true,
@@ -534,7 +534,7 @@
             "desc": "Историко-политологический факультет",
             "prof": "программа широкого профиля",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-gosudarstvennoe-i-munitsipalnoe-upravlenie-bakalavriat",
+            "url": "www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-gosudarstvennoe-i-munitsipalnoe-upravlenie-bakalavriat",
             "obj": {
                 "obs": true,
                 "geo": true,
@@ -550,7 +550,7 @@
             "desc": "Историко-политологический факультет",
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-politologiya-bakalavriat",
+            "url": "www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-politologiya-bakalavriat",
             "obj": {
                 "obs": true,
                 "ist": true,
@@ -566,7 +566,7 @@
             "desc": "Историко-политологический факультет",
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-politologiya-bakalavriat",
+            "url": "www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-politologiya-bakalavriat",
             "obj": {
                 "iny": true,
                 "ist": true,
@@ -582,7 +582,7 @@
             "desc": "Историко-политологический факультет",
             "prof": "История и География",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-pedagogicheskoe-obrazovanie-s-dvumya-profilyami-podgotovki-bakalavriat ",
+            "url": "www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-pedagogicheskoe-obrazovanie-s-dvumya-profilyami-podgotovki-bakalavriat ",
             "obj": {
                 "obs": true,
                 "ist": true,
@@ -598,7 +598,7 @@
             "desc": "Историко-политологический факультет",
             "prof": "программа широкого профиля",
             "form": "очная, заочная (Профиль обучения: Историко-культурный туризм)",
-            "url": "http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravleniya-obrazovatelnoj-deyatelnosti",
+            "url": "www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravleniya-obrazovatelnoj-deyatelnosti",
             "obj": {
                 "ist": true,
                 "obs": true,
@@ -614,7 +614,7 @@
             "desc": "Историко-политологический факультет",
             "prof": "программа широкого профиля",
             "form": "очная, заочная (Профиль обучения: Историко-культурный туризм)",
-            "url": "http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravleniya-obrazovatelnoj-deyatelnosti",
+            "url": "www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravleniya-obrazovatelnoj-deyatelnosti",
             "obj": {
                 "ist": true,
                 "geo": true,
@@ -630,7 +630,7 @@
             "desc": "Историко-политологический факультет",
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-mezhdunarodnye-otnosheniya-bakalavriat",
+            "url": "www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-mezhdunarodnye-otnosheniya-bakalavriat",
             "obj": {
                 "ist": true,
                 "iny": true,
@@ -646,7 +646,7 @@
             "desc": "Историко-политологический факультет",
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-mezhdunarodnye-otnosheniya-bakalavriat",
+            "url": "www.psu.ru/fakultety/istoriko-politologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-mezhdunarodnye-otnosheniya-bakalavriat",
             "obj": {
                 "ist": true,
                 "obs": true,
@@ -663,7 +663,7 @@
             
             "prof": "Инфокоммуникационные технологии в сервисах и услугах связи",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-infokommunikatsionnye-tekhnologii-i-sistemy-svyazi-bakalavriat",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-infokommunikatsionnye-tekhnologii-i-sistemy-svyazi-bakalavriat",
             "obj": {
                 "mat": true,
                 "inf": true,
@@ -680,7 +680,7 @@
             
             "prof": "Инфокоммуникационные технологии в сервисах и услугах связи",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-infokommunikatsionnye-tekhnologii-i-sistemy-svyazi-bakalavriat",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-infokommunikatsionnye-tekhnologii-i-sistemy-svyazi-bakalavriat",
             "obj": {
                 "mat": true,
                 "phy": true,
@@ -697,7 +697,7 @@
             
             "prof": "Безопасность информационных систем",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-informatsionnye-sistemy-i-tekhnologii-bakalavriat",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-informatsionnye-sistemy-i-tekhnologii-bakalavriat",
             "obj": {
                 "mat": true,
                 "inf": true,
@@ -714,7 +714,7 @@
             
             "prof": "Безопасность информационных систем",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-informatsionnye-sistemy-i-tekhnologii-bakalavriat",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-informatsionnye-sistemy-i-tekhnologii-bakalavriat",
             "obj": {
                 "mat": true,
                 "phy": true,
@@ -731,7 +731,7 @@
             
             "prof": "Разработка защищенного программного обеспечения",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-kompyuternaya-bezopasnost",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-kompyuternaya-bezopasnost",
             "obj": {
                 "mat": true,
                 "inf": true,
@@ -748,7 +748,7 @@
             
             "prof": "Разработка защищенного программного обеспечения",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-kompyuternaya-bezopasnost",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-kompyuternaya-bezopasnost",
             "obj": {
                 "mat": true,
                 "phy": true,
@@ -765,7 +765,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-matematika-bakalavriat",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-matematika-bakalavriat",
             "obj": {
                 "mat": true,
                 "inf": true,
@@ -782,7 +782,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-matematika-bakalavriat",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-matematika-bakalavriat",
             "obj": {
                 "mat": true,
                 "phy": true,
@@ -799,7 +799,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-mekhanika-i-matematicheskoe-modelirovanie-bakalavriat",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-mekhanika-i-matematicheskoe-modelirovanie-bakalavriat",
             "obj": {
                 "mat": true,
                 "inf": true,
@@ -816,7 +816,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-mekhanika-i-matematicheskoe-modelirovanie-bakalavriat",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-mekhanika-i-matematicheskoe-modelirovanie-bakalavriat",
             "obj": {
                 "mat": true,
                 "phy": true,
@@ -833,7 +833,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-prikladnaya-matematika-i-informatika-bakalavriat",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-prikladnaya-matematika-i-informatika-bakalavriat",
             "obj": {
                 "mat": true,
                 "inf": true,
@@ -850,7 +850,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-prikladnaya-matematika-i-informatika-bakalavriat",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-prikladnaya-matematika-i-informatika-bakalavriat",
             "obj": {
                 "mat": true,
                 "phy": true,
@@ -867,7 +867,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-fundamentalnye-matematika-i-mekhanika",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-fundamentalnye-matematika-i-mekhanika",
             "obj": {
                 "mat": true,
                 "inf": true,
@@ -884,7 +884,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-fundamentalnye-matematika-i-mekhanika",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-fundamentalnye-matematika-i-mekhanika",
             "obj": {
                 "mat": true,
                 "phy": true,
@@ -901,7 +901,7 @@
             
             "prof": "Открытые информационные системы",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-fundamentalnye-informatika-i-informatsionnye-tekhnologii-bakalavriat",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-fundamentalnye-informatika-i-informatsionnye-tekhnologii-bakalavriat",
             "obj": {
                 "mat": true,
                 "inf": true,
@@ -918,7 +918,7 @@
             
             "prof": "Открытые информационные системы",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-fundamentalnye-informatika-i-informatsionnye-tekhnologii-bakalavriat",
+            "url": "www.psu.ru/fakultety/mekhaniko-matematicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-fundamentalnye-informatika-i-informatsionnye-tekhnologii-bakalavriat",
             "obj": {
                 "mat": true,
                 "phy": true,
@@ -935,7 +935,7 @@
             
             "prof": "Иностранные языки и межкультурная коммуникация (английский язык), Иностранные языки и межкультурная коммуникация (испанский язык), Перевод и переводоведение (английский язык) (с изучением английского и испанского языков)",
             "form": "очная, вечерняя",
-            "url": "http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-lingvistika-bakalavriat",
+            "url": "www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-lingvistika-bakalavriat",
             "obj": {
                 "eng": true,
                 "obs": true,
@@ -952,7 +952,7 @@
             
             "prof": "Иностранные языки и межкультурная коммуникация (английский язык), Иностранные языки и межкультурная коммуникация (испанский язык), Перевод и переводоведение (английский язык) (с изучением английского и испанского языков)",
             "form": "очная, вечерняя",
-            "url": "http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-lingvistika-bakalavriat",
+            "url": "www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-lingvistika-bakalavriat",
             "obj": {
                 "eng": true,
                 "lit": true,
@@ -969,7 +969,7 @@
             
             "prof": "Лингвистическое обеспечение межгосударственных отношений (английский язык; французский язык)",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-perevod-i-perevodovedenie",
+            "url": "www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-perevod-i-perevodovedenie",
             "obj": {
                 "eng": true,
                 "obs": true,
@@ -986,7 +986,7 @@
             
             "prof": "Лингвистическое обеспечение межгосударственных отношений (английский язык; французский язык)",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-perevod-i-perevodovedenie",
+            "url": "www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-perevod-i-perevodovedenie",
             "obj": {
                 "fre": true,
                 "obs": true,
@@ -1003,7 +1003,7 @@
             
             "prof": "Лингвистическое обеспечение межгосударственных отношений (английский язык; французский язык)",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-perevod-i-perevodovedenie",
+            "url": "www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-perevod-i-perevodovedenie",
             "obj": {
                 "eng": true,
                 "lit": true,
@@ -1020,7 +1020,7 @@
             
             "prof": "Лингвистическое обеспечение межгосударственных отношений (английский язык; французский язык)",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-perevod-i-perevodovedenie",
+            "url": "www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-perevod-i-perevodovedenie",
             "obj": {
                 "fre": true,
                 "lit": true,
@@ -1037,7 +1037,7 @@
             
             "prof": "Иностранные языки и Литература",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-pedagogicheskoe-obrazovanie-bakalavriat",
+            "url": "www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-pedagogicheskoe-obrazovanie-bakalavriat",
             "obj": {
                 "eng": true,
                 "obs": true,
@@ -1054,7 +1054,7 @@
             
             "prof": "Иностранные языки и Литература",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-pedagogicheskoe-obrazovanie-bakalavriat",
+            "url": "www.psu.ru/fakultety/fakultet-sovremennykh-inostrannykh-yazykov-i-literatur/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-pedagogicheskoe-obrazovanie-bakalavriat",
             "obj": {
                 "ger": true,
                 "obs": true,
@@ -1071,7 +1071,7 @@
             
             "prof": "Материалы микро- и наносистемной техники",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-nanotekhnologii-i-mikrosistemnaya-tekhnika",
+            "url": "www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-nanotekhnologii-i-mikrosistemnaya-tekhnika",
             "obj": {
                 "phy": true,
                 "mat": true,
@@ -1087,7 +1087,7 @@
             "desc": "Физический факультет",
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/novoe-napravlenie-prikladnye-matematika-i-fizika",
+            "url": "www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/novoe-napravlenie-prikladnye-matematika-i-fizika",
             "obj": {
                 "phy": true,
                 "mat": true,
@@ -1103,7 +1103,7 @@
             "desc": "Физический факультет",
             "prof": "Электроника, микро- и наноэлектроника",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-radiofizika",
+            "url": "www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-radiofizika",
             "obj": {
                 "phy": true,
                 "mat": true,
@@ -1120,7 +1120,7 @@
             
             "prof": "Фундаментальная физика",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-fizika",
+            "url": "www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-fizika",
             "obj": {
                 "phy": true,
                 "mat": true,
@@ -1137,7 +1137,7 @@
             
             "prof": "Безопасность открытых информационных систем",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-informatsionnaya-bezopasnost-avtomatizirovannykh-sistem",
+            "url": "www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-informatsionnaya-bezopasnost-avtomatizirovannykh-sistem",
             "obj": {
                 "phy": true,
                 "mat": true,
@@ -1154,7 +1154,7 @@
             
             "prof": "Безопасность открытых информационных систем",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-informatsionnaya-bezopasnost-avtomatizirovannykh-sistem",
+            "url": "www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-informatsionnaya-bezopasnost-avtomatizirovannykh-sistem",
             "obj": {
                 "inf": true,
                 "mat": true,
@@ -1171,7 +1171,7 @@
             
             "prof": "Инженерия программного обеспечения",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-prikladnaya-matematika-i-informatika-bakalavriat",
+            "url": "www.psu.ru/fakultety/fizicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-prikladnaya-matematika-i-informatika-bakalavriat",
             "obj": {
                 "inf": true,
                 "mat": true,
@@ -1188,7 +1188,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-031600-62-reklama-i-svyazi-s-obshchestvennostyu",
+            "url": "www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-031600-62-reklama-i-svyazi-s-obshchestvennostyu",
             "obj": {
                 "obs": true,
                 "ist": true,
@@ -1205,7 +1205,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-031600-62-reklama-i-svyazi-s-obshchestvennostyu",
+            "url": "www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-031600-62-reklama-i-svyazi-s-obshchestvennostyu",
             "obj": {
                 "obs": true,
                 "iny": true,
@@ -1222,7 +1222,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-031300-62-zhurnalistika",
+            "url": "www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-031300-62-zhurnalistika",
             "obj": {
                 "tvo": true,
                 "lit": true,
@@ -1239,7 +1239,7 @@
             
             "prof": "Русская филология",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-032700-62-filologiya",
+            "url": "www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-032700-62-filologiya",
             "obj": {
                 "lit": true,
                 "obs": true,
@@ -1256,7 +1256,7 @@
             
             "prof": "Русская филология",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-032700-62-filologiya",
+            "url": "www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-032700-62-filologiya",
             "obj": {
                 "lit": true,
                 "iny": true,
@@ -1273,7 +1273,7 @@
             
             "prof": "Контент-менеджмент",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-mediakommunikatsii-bakalavriat",
+            "url": "www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-mediakommunikatsii-bakalavriat",
             "obj": {
                 "lit": true,
                 "obs": true,
@@ -1290,7 +1290,7 @@
             
             "prof": "Контент-менеджмент",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-mediakommunikatsii-bakalavriat",
+            "url": "www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-mediakommunikatsii-bakalavriat",
             "obj": {
                 "lit": true,
                 "iny": true,
@@ -1307,7 +1307,7 @@
             
             "prof": "Русский язык как иностранный и Китайский язык, Русский язык и Литература, Русский язык как неродной и Начальное образование",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-44-03-01-pedagogicheskoe-obrazovanie",
+            "url": "www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-44-03-01-pedagogicheskoe-obrazovanie",
             "obj": {
                 "lit": true,
                 "obs": true,
@@ -1324,7 +1324,7 @@
             
             "prof": "Русский язык как иностранный и Китайский язык, Русский язык и Литература, Русский язык как неродной и Начальное образование",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-44-03-01-pedagogicheskoe-obrazovanie",
+            "url": "www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-44-03-01-pedagogicheskoe-obrazovanie",
             "obj": {
                 "ist": true,
                 "obs": true,
@@ -1341,7 +1341,7 @@
             
             "prof": "Русский язык как иностранный и Китайский язык, Русский язык и Литература, Русский язык как неродной и Начальное образование",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-44-03-01-pedagogicheskoe-obrazovanie",
+            "url": "www.psu.ru/fakultety/filologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-44-03-01-pedagogicheskoe-obrazovanie",
             "obj": {
                 "iny": true,
                 "obs": true,
@@ -1358,7 +1358,7 @@
             
             "prof": "Патопсихологическая диагностика и психотерапия",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologiya-spetsialnost-klinicheskaya-psikhologiya",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologiya-spetsialnost-klinicheskaya-psikhologiya",
             "obj": {
                 "bio": true,
                 "mat": true,
@@ -1375,7 +1375,7 @@
             
             "prof": "Патопсихологическая диагностика и психотерапия",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologiya-spetsialnost-klinicheskaya-psikhologiya",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologiya-spetsialnost-klinicheskaya-psikhologiya",
             "obj": {
                 "bio": true,
                 "iny": true,
@@ -1392,7 +1392,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologiya-bakalavriat",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologiya-bakalavriat",
             "obj": {
                 "bio": true,
                 "mat": true,
@@ -1409,7 +1409,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologiya-bakalavriat",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologiya-bakalavriat",
             "obj": {
                 "bio": true,
                 "iny": true,
@@ -1426,7 +1426,7 @@
             
             "prof": "Психология образования",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologo-pedagogicheskoe-obrazovanie-bakalavriat",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologo-pedagogicheskoe-obrazovanie-bakalavriat",
             "obj": {
                 "bio": true,
                 "mat": true,
@@ -1443,7 +1443,7 @@
             
             "prof": "Психология образования",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologo-pedagogicheskoe-obrazovanie-bakalavriat",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologo-pedagogicheskoe-obrazovanie-bakalavriat",
             "obj": {
                 "bio": true,
                 "iny": true,
@@ -1460,7 +1460,7 @@
             
             "prof": "Психологическое обеспечение служебной деятельности в экстремальных условиях",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologiya-sluzhebnoj-deyatelnosti-bakalavriat",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologiya-sluzhebnoj-deyatelnosti-bakalavriat",
             "obj": {
                 "bio": true,
                 "mat": true,
@@ -1477,7 +1477,7 @@
             
             "prof": "Психологическое обеспечение служебной деятельности в экстремальных условиях",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologiya-sluzhebnoj-deyatelnosti-bakalavriat",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-psikhologiya-sluzhebnoj-deyatelnosti-bakalavriat",
             "obj": {
                 "bio": true,
                 "iny": true,
@@ -1493,7 +1493,7 @@
             "desc": "Философско-социологический факультет",
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-sotsiologiya",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-sotsiologiya",
             "obj": {
                 "obs": true,
                 "mat": true,
@@ -1542,7 +1542,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-organizatsiya-raboty-s-molodezhyu",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-organizatsiya-raboty-s-molodezhyu",
             "obj": {
                 "obs": true,
                 "ist": true,
@@ -1559,7 +1559,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-iskusstva-i-gumanitarnye-nauki",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-iskusstva-i-gumanitarnye-nauki",
             "obj": {
                 "obs": true,
                 "ist": true,
@@ -1576,7 +1576,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-iskusstva-i-gumanitarnye-nauki",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-iskusstva-i-gumanitarnye-nauki",
             "obj": {
                 "lit": true,
                 "ist": true,
@@ -1593,7 +1593,7 @@
             
             "prof": "Графический дизайн",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-dizajn-bakalavriat",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-dizajn-bakalavriat",
             "obj": {
                 "ris": true,
                 "obs": true,
@@ -1610,7 +1610,7 @@
             
             "prof": "Графический дизайн",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-dizajn-bakalavriat",
+            "url": "www.psu.ru/fakultety/filosofsko-sotsiologicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-dizajn-bakalavriat",
             "obj": {
                 "ris": true,
                 "iny": true,
@@ -1627,7 +1627,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-farmatsiya",
+            "url": "www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-farmatsiya",
             "obj": {
                 "che": true,
                 "mat": true,
@@ -1644,7 +1644,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-farmatsiya",
+            "url": "www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-farmatsiya",
             "obj": {
                 "che": true,
                 "bio": true,
@@ -1661,7 +1661,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-fundamentalnaya-i-prikladnaya-khimiya-bakalavriat",
+            "url": "www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-fundamentalnaya-i-prikladnaya-khimiya-bakalavriat",
             "obj": {
                 "che": true,
                 "mat": true,
@@ -1678,7 +1678,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-fundamentalnaya-i-prikladnaya-khimiya-bakalavriat",
+            "url": "www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-fundamentalnaya-i-prikladnaya-khimiya-bakalavriat",
             "obj": {
                 "che": true,
                 "bio": true,
@@ -1694,7 +1694,7 @@
             "desc": "Химический факультет",
             "prof": "Прикладная химия, программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-khimiya-bakalavriat",
+            "url": "www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-khimiya-bakalavriat",
             "obj": {
                 "che": true,
                 "mat": true,
@@ -1710,7 +1710,7 @@
             "desc": "Химический факультет",
             "prof": "Прикладная химия, программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-khimiya-bakalavriat",
+            "url": "www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-khimiya-bakalavriat",
             "obj": {
                 "che": true,
                 "bio": true,
@@ -1727,7 +1727,7 @@
             
             "prof": "Безопасность технологических процессов химических и нефтехимических производств",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-tekhnosfernaya-bezopasnost-akademicheskij-bakalavr",
+            "url": "www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-tekhnosfernaya-bezopasnost-akademicheskij-bakalavr",
             "obj": {
                 "che": true,
                 "mat": true,
@@ -1744,7 +1744,7 @@
             
             "prof": "Безопасность технологических процессов химических и нефтехимических производств",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-tekhnosfernaya-bezopasnost-akademicheskij-bakalavr",
+            "url": "www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-tekhnosfernaya-bezopasnost-akademicheskij-bakalavr",
             "obj": {
                 "inf": true,
                 "mat": true,
@@ -1761,7 +1761,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-khimiya-fizika-i-mekhanika-materialov-bakalavriat",
+            "url": "www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-khimiya-fizika-i-mekhanika-materialov-bakalavriat",
             "obj": {
                 "che": true,
                 "mat": true,
@@ -1778,7 +1778,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-khimiya-fizika-i-mekhanika-materialov-bakalavriat",
+            "url": "www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-khimiya-fizika-i-mekhanika-materialov-bakalavriat",
             "obj": {
                 "inf": true,
                 "mat": true,
@@ -1795,7 +1795,7 @@
             
             "prof": "Химия и Биология",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-pedagogicheskoe-obrazovanie-s-dvumya-profilyami-podgotovki-bakalavriat",
+            "url": "www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-pedagogicheskoe-obrazovanie-s-dvumya-profilyami-podgotovki-bakalavriat",
             "obj": {
                 "che": true,
                 "obs": true,
@@ -1812,7 +1812,7 @@
             
             "prof": "программа широкого профиля",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-farmatsiya",
+            "url": "www.psu.ru/fakultety/khimicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-farmatsiya",
             "obj": {
                 "che": true,
                 "eng": true,
@@ -1829,7 +1829,7 @@
             
             "prof": "Математическое моделирование и информационные технологии в экономике",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-prikladnaya-matematika-i-informatika-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-prikladnaya-matematika-i-informatika-bakalavriat",
             "obj": {
                 "mat": true,
                 "inf": true,
@@ -1846,7 +1846,7 @@
             
             "prof": "Математическое моделирование и информационные технологии в экономике",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-prikladnaya-matematika-i-informatika-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-prikladnaya-matematika-i-informatika-bakalavriat",
             "obj": {
                 "mat": true,
                 "phy": true,
@@ -1862,7 +1862,7 @@
             "desc": "Экономический факультет",
             "prof": "Бизнес-аналитика",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-biznes-informatika-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-biznes-informatika-bakalavriat",
             "obj": {
                 "mat": true,
                 "obs": true,
@@ -1878,7 +1878,7 @@
             "desc": "Экономический факультет",
             "prof": "Бизнес-аналитика",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-biznes-informatika-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-biznes-informatika-bakalavriat",
             "obj": {
                 "mat": true,
                 "geo": true,
@@ -1894,7 +1894,7 @@
             "desc": "Экономический факультет",
             "prof": "Бизнес-аналитика",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-biznes-informatika-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-biznes-informatika-bakalavriat",
             "obj": {
                 "mat": true,
                 "iny": true,
@@ -1910,7 +1910,7 @@
             "desc": "Экономический факультет",
             "prof": "Менеджмент организации",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-menedzhment-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-menedzhment-bakalavriat",
             "obj": {
                 "mat": true,
                 "obs": true,
@@ -1926,7 +1926,7 @@
             "desc": "Экономический факультет",
             "prof": "Менеджмент организации",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-menedzhment-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-menedzhment-bakalavriat",
             "obj": {
                 "mat": true,
                 "geo": true,
@@ -1942,7 +1942,7 @@
             "desc": "Экономический факультет",
             "prof": "Менеджмент организации",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-menedzhment-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-menedzhment-bakalavriat",
             "obj": {
                 "mat": true,
                 "iny": true,
@@ -1958,7 +1958,7 @@
             "desc": "Экономический факультет",
             "prof": "Коммерция, Маркетинг",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-torgovoe-delo-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-torgovoe-delo-bakalavriat",
             "obj": {
                 "mat": true,
                 "obs": true,
@@ -1974,7 +1974,7 @@
             "desc": "Экономический факультет",
             "prof": "Коммерция, Маркетинг",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-torgovoe-delo-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-torgovoe-delo-bakalavriat",
             "obj": {
                 "mat": true,
                 "geo": true,
@@ -1990,7 +1990,7 @@
             "desc": "Экономический факультет",
             "prof": "Коммерция, Маркетинг",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-torgovoe-delo-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-torgovoe-delo-bakalavriat",
             "obj": {
                 "mat": true,
                 "iny": true,
@@ -2006,7 +2006,7 @@
             "desc": "Экономический факультет",
             "prof": "Управление человеческими ресурсами",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-upravlenie-personalom-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-upravlenie-personalom-bakalavriat",
             "obj": {
                 "mat": true,
                 "obs": true,
@@ -2022,7 +2022,7 @@
             "desc": "Экономический факультет",
             "prof": "Управление человеческими ресурсами",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-upravlenie-personalom-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-upravlenie-personalom-bakalavriat",
             "obj": {
                 "mat": true,
                 "geo": true,
@@ -2038,7 +2038,7 @@
             "desc": "Экономический факультет",
             "prof": "Управление человеческими ресурсами",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-upravlenie-personalom-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-upravlenie-personalom-bakalavriat",
             "obj": {
                 "mat": true,
                 "iny": true,
@@ -2054,7 +2054,7 @@
             "desc": "Экономический факультет",
             "prof": "Учет, аудит и экономическая экспертиза, Финансы и кредит, Экономика предприятий и организаций",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekonomika-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekonomika-bakalavriat",
             "obj": {
                 "mat": true,
                 "obs": true,
@@ -2070,7 +2070,7 @@
             "desc": "Экономический факультет",
             "prof": "Учет, аудит и экономическая экспертиза, Финансы и кредит, Экономика предприятий и организаций",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekonomika-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekonomika-bakalavriat",
             "obj": {
                 "mat": true,
                 "geo": true,
@@ -2086,7 +2086,7 @@
             "desc": "Экономический факультет",
             "prof": "Учет, аудит и экономическая экспертиза, Финансы и кредит, Экономика предприятий и организаций",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekonomika-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekonomika-bakalavriat",
             "obj": {
                 "mat": true,
                 "iny": true,
@@ -2102,7 +2102,7 @@
             "desc": "Экономический факультет",
             "prof": "Экономико-правовое обеспечение экономической безопасности",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-ekonomicheskaya-bezopasnost",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-ekonomicheskaya-bezopasnost",
             "obj": {
                 "mat": true,
                 "obs": true,
@@ -2118,7 +2118,7 @@
             "desc": "Экономический факультет",
             "prof": "Экономико-правовое обеспечение экономической безопасности",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-ekonomicheskaya-bezopasnost",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-ekonomicheskaya-bezopasnost",
             "obj": {
                 "mat": true,
                 "geo": true,
@@ -2134,7 +2134,7 @@
             "desc": "Экономический факультет",
             "prof": "Экономико-правовое обеспечение экономической безопасности",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-ekonomicheskaya-bezopasnost",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-ekonomicheskaya-bezopasnost",
             "obj": {
                 "mat": true,
                 "iny": true,
@@ -2150,7 +2150,7 @@
             "desc": "Экономический факультет",
             "prof": "Международный бизнес",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekonomika-bakalavriat",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-ekonomika-bakalavriat",
             "obj": {
                 "mat": true,
                 "eng": true,
@@ -2166,7 +2166,7 @@
             "desc": "Экономический факультет",
             "prof": "программа широкого профиля",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-tamozhennoe-delo",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-tamozhennoe-delo",
             "obj": {
                 "obs": true,
                 "iny": true,
@@ -2182,7 +2182,7 @@
             "desc": "Экономический факультет",
             "prof": "программа широкого профиля",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-tamozhennoe-delo",
+            "url": "www.psu.ru/fakultety/ekonomicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-tamozhennoe-delo",
             "obj": {
                 "obs": true,
                 "geo": true,
@@ -2198,7 +2198,7 @@
             "desc": "Юридический факультет",
             "prof": "Урегулирование конфликтов в социально-правовой сфере",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/yuridicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-konfliktologia-bakalavriat",
+            "url": "www.psu.ru/fakultety/yuridicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-konfliktologia-bakalavriat",
             "obj": {
                 "obs": true,
                 "ist": true,
@@ -2214,7 +2214,7 @@
             "desc": "Юридический факультет",
             "prof": "Система социальной защиты и социально-правовой патронаж",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/yuridicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-sotsialnaya-rabota-bakalavriat",
+            "url": "www.psu.ru/fakultety/yuridicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-sotsialnaya-rabota-bakalavriat",
             "obj": {
                 "obs": true,
                 "ist": true,
@@ -2230,7 +2230,7 @@
             "desc": "Юридический факультет",
             "prof": "Криминалистические экспертизы",
             "form": "очная",
-            "url": "http://www.psu.ru/fakultety/yuridicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-sudebnaya-ekspertiza-bakalavriat",
+            "url": "www.psu.ru/fakultety/yuridicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-sudebnaya-ekspertiza-bakalavriat",
             "obj": {
                 "obs": true,
                 "ist": true,
@@ -2245,8 +2245,8 @@
             "name": "Юриспруденция",
             "desc": "Юридический факультет",
             "prof": "Гражданское право, Уголовное право, Международное и трудовое право",
-            "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/yuridicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-jurisprudentsiya-bakalavriat",
+            "form": "очная, чзаочная",
+            "url": "www.psu.ru/fakultety/yuridicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/napravlenie-jurisprudentsiya-bakalavriat",
             "obj": {
                 "obs": true,
                 "ist": true,
@@ -2262,7 +2262,7 @@
             "desc": "Юридический факультет",
             "prof": "Судебная деятельность, Прокурорская деятельность",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/yuridicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-sudebnaya-i-prokurorskaya-deyatelnost",
+            "url": "www.psu.ru/fakultety/yuridicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-sudebnaya-i-prokurorskaya-deyatelnost",
             "obj": {
                 "obs": true,
                 "ist": true,
@@ -2278,7 +2278,7 @@
             "desc": "Юридический факультет",
             "prof": "Судебная деятельность, Прокурорская деятельность",
             "form": "очная, заочная",
-            "url": "http://www.psu.ru/fakultety/yuridicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-sudebnaya-i-prokurorskaya-deyatelnost",
+            "url": "www.psu.ru/fakultety/yuridicheskij-fakultet/napravleniya-obrazovatelnoj-deyatelnosti/spetsialnost-sudebnaya-i-prokurorskaya-deyatelnost",
             "obj": {
                 "obs": true,
                 "iny": true,

@@ -4,7 +4,9 @@
           <!--<EasterEgg v-show="openItem"/>-->
           <!--<div @dblclick="easterEgg()" class="wrapper__item"></div>-->
             <div class="wrapper__main-body">
-                <div class="wrapper__header--img"></div>
+                <a href="http://www.psu.ru">
+                    <div class="wrapper__header--img"></div>
+                </a>
                 <div class="wrapper__body">
                     <div class="wrapper__body-header">
                         <h1 class="wrapper__body-header--strong text" align=center>
@@ -289,7 +291,7 @@ export default {
 
 .wrapper__body-header--desc {
     text-align: justify;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.5em;
     font-style: normal;
     margin: 3px 0 0;

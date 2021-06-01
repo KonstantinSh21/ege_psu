@@ -328,12 +328,14 @@ export default {
     position: absolute;
     top: -2.5px;
     height: 100%;
+    cursor: pointer;
 }
 
 .wrapper__cb-item label {
     font-size: 18px;
     font-family: Arial;
     padding-left: 25px;
+    cursor: pointer;
 }
 
 .wrapper__footer--none {

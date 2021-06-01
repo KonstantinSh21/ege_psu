@@ -1,8 +1,8 @@
 <template>
     <div id="app">
         <div class="wrapper">
-          <EasterEgg v-show="openItem"/>
-          <div @dblclick="easterEgg()" class="wrapper__item"></div>
+          <!--<EasterEgg v-show="openItem"/>-->
+          <!--<div @dblclick="easterEgg()" class="wrapper__item"></div>-->
             <div class="wrapper__main-body">
                 <div class="wrapper__header--img"></div>
                 <div class="wrapper__body">
@@ -142,7 +142,7 @@
 </template>
 
 <script>
-import EasterEgg from "./EasterEgg";
+//import EasterEgg from "./EasterEgg";
 export default {
     name: 'App',
     data() {
@@ -177,9 +177,9 @@ export default {
         this.myData = userData;
         this.myData = JSON.parse(JSON.stringify(this.myData))
     },
-    components: {
-      EasterEgg
-    },
+//    components: {
+//      EasterEgg
+//    },
     methods: {
         Click(name, isValue) {
             this.open = false;

@@ -17,6 +17,9 @@
                             ПГНИУ, куда можешь
                             подать документы в 2021 году, и минимальные баллы.
                         </div>
+                        <div class="wrapper__body-header--desc_sub text">
+                            * - внутренние экзамены ПГНИУ
+                        </div>
                     </div>
                     <div class="wrapper__body-cb">
             <div class="wrapper__body-header">
@@ -44,7 +47,7 @@
                   </div>
                   <div class="wrapper__cb-item">
                     <input @click="Click('mat', !isMat)" v-model="isMat" type="checkbox" id="mat"/>
-                    <label for="mat">Математика (проф.ур.) <b>(39)</b></label>
+                    <label for="mat">Математика <b>(39)</b></label>
                   </div>
                   <div class="wrapper__cb-item">
                     <input @click="Click('inf', !isInf)" v-model="isInf" type="checkbox" id="inf"/>
@@ -94,11 +97,11 @@
                   </div>
                   <div class="wrapper__cb-item">
                     <input @click="Click('ris', !isRis)" v-model="isRis" type="checkbox" id="ris"/>
-                    <label for="ris">Рисунок <b>(50)</b></label>
+                    <label for="ris">Рисунок* <b>(50)</b></label>
                   </div>
                   <div class="wrapper__cb-item">
                     <input @click="Click('tvo', !isTvo)" v-model="isTvo" type="checkbox" id="tvo"/>
-                    <label for="tvo">Творческая работа <b>(50)</b></label>
+                    <label for="tvo">Творческая работа* <b>(50)</b></label>
                   </div>
                   <div class="wrapper__cb-item">
                     <input @click="Click('iny', !isIny)" v-model="isIny" type="checkbox" id="iny"/>
@@ -271,13 +274,14 @@ export default {
 
 
 .wrapper__header--img {
-    width: 90%;
-    margin: 5%;
-    background-size: 100% 129px;
+    width: 80%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    background-size: 100% 160px;
     background-repeat: no-repeat;
     background-image: url(http://www.psu.ru/templates/xhtml/images/company.png);
     display: inline-block;
-    height: 138px;
+    height: 160px;
 }
 
 .wrapper__body {
@@ -292,6 +296,14 @@ export default {
 .wrapper__body-header--desc {
     text-align: justify;
     font-size: 20px;
+    line-height: 1.5em;
+    font-style: normal;
+    margin: 3px 0 0;
+}
+
+.wrapper__body-header--desc_sub {
+    text-align: justify;
+    font-size: 14px;
     line-height: 1.5em;
     font-style: normal;
     margin: 3px 0 0;
@@ -380,7 +392,7 @@ a:visited{
 
 @media screen and (max-width: 1600px) {
     .wrapper__main-body {
-        width: 50%;
+        width: 70%;
     }
 }
 
@@ -413,13 +425,14 @@ a:visited{
     }
 
     .wrapper__header--img {
-        width: 90%;
-        margin: 5%;
-        background-size: 100%;
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 10%;
+        background-size: 100% 100px;
         background-repeat: no-repeat;
         background-image: url(http://www.psu.ru/templates/xhtml/images/company.png);
         display: inline-block;
-        height: 100%;
+        height: 120px;
     }
 }
 </style>

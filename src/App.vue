@@ -1,30 +1,37 @@
 <template>
-    <div id="app">
-        <div class="wrapper">
-          <!--<EasterEgg v-show="openItem"/>-->
-          <!--<div @dblclick="easterEgg()" class="wrapper__item"></div>-->
-            <div class="wrapper__main-body">
-                <a href="http://www.psu.ru">
-                    <div class="wrapper__header--img"></div>
-                </a>
-                <div class="wrapper__body">
-                    <div class="wrapper__body-header">
-                        <h1 class="wrapper__body-header--strong text" align=center>
-                            Навигатор ЕГЭ в ПГНИУ
-                        </h1>
-                        <div class="wrapper__body-header--desc text">
-                            Выбери предметы, которые ты сдаешь в форме ЕГЭ. Ниже под формой ты увидишь направления
-                            ПГНИУ, куда можешь
-                            подать документы в 2021 году, и минимальные баллы.
-                        </div>
-                        <div class="wrapper__body-header--desc_sub text">
-                            * - внутренние экзамены ПГНИУ
-                        </div>
-                    </div>
-                    <div class="wrapper__body-cb">
+  <div id="app">
+    <div class="wrapper">
+      <!--<EasterEgg v-show="openItem"/>-->
+      <!--<div @dblclick="easterEgg()" class="wrapper__item"></div>-->
+      <div class="wrapper__main-body">
+        <a href="http://www.psu.ru">
+          <div class="wrapper__header--img"></div>
+        </a>
+        <div class="wrapper__body">
+          <div class="wrapper__body-header">
+            <h1 class="wrapper__body-header--strong text" align=center>
+              Навигатор ЕГЭ в ПГНИУ
+            </h1>
+            <div class="wrapper__body-header--desc text">
+              Выбери предметы, которые ты сдаешь в форме ЕГЭ. Ниже под формой ты увидишь направления
+              ПГНИУ, куда можешь
+              подать документы в 2021 году, и минимальные баллы.
+            </div>
+            <div class="wrapper__body-header--desc_sub text">
+              * - внутренние экзамены ПГНИУ
+            </div>
+            <div class="wrapper__body-header--desc_sub text">
+              () - в скобках указыватся минимальный бал для поступления
+            </div>
+          </div>
+          <h4 class="wrapper__body-header--header">
+            Выберите предметы ЕГЭ, которые вы сдали или собираетесь сдавать
+          </h4>
+          <div class="wrapper__body-cb">
             <div class="wrapper__body-header">
               <div class="wrapper__cb">
                 <div class="wrapper__cb-items">
+
                   <div class="wrapper__cb-item">
                     <!--                    //Биология              bio 39-->
                     <!--                    //Математика            mat 39-->
@@ -112,148 +119,158 @@
             </div>
           </div>
 
-                    <div class="wrapper__footer--full">
-                        <div :class="open ? 'wrapper__footer--padding' :'wrapper__footer--padding-none'">
-                            <div class="wrapper__footer-items">
-                                <div :class="open ? 'wrapper__footer-text--opacity' :'wrapper__footer-text--none'">
-                                    <div class="footer__footer">
-                                        <div :key="item.id + index" v-for="(item, index) in finallyFilterArr">
-                                            <strong><a
-                                              v-bind:href="'http://' + item.url"
-                                              target="_blank"><em>{{ item.name }}</em></a></strong>
-                                            <div class="text">
-                                                <i>{{ item.desc }}</i><br>
-                                                Профили обучения: <i>{{ item.prof }}</i><br>
-                                                Форма обучения: <i>{{ item.form }}</i><br>
-                                                <div>
-                                                    <ul>
-                                                        <li>{{ item.scope1 }}</li>
-                                                        <li>{{ item.scope2 }}</li>
-                                                        <li>{{ item.scope3 }}</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <br>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+          <div class="wrapper__footer--full">
+            <div :class="open ? 'wrapper__footer--padding' :'wrapper__footer--padding-none'">
+              <div class="wrapper__footer-items">
+                <div :class="open ? 'wrapper__footer-text--opacity' :'wrapper__footer-text--none'">
+                  <div class="footer__footer">
+                    <div :key="item.id + index" v-for="(item, index) in finallyFilterArr">
+                      <strong><a
+                          v-bind:href="'http://' + item.url"
+                          target="_blank"><em>{{ item.name }}</em></a></strong>
+                      <div class="text">
+                        <i>{{ item.desc }}</i><br>
+                        Профили обучения: <i>{{ item.prof }}</i><br>
+                        Форма обучения: <i>{{ item.form }}</i><br>
+                        <div>
+                          <ul>
+                            <li>{{ item.scope1 }}</li>
+                            <li>{{ item.scope2 }}</li>
+                            <li>{{ item.scope3 }}</li>
+                          </ul>
                         </div>
+                      </div>
+                      <br>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
 //import EasterEgg from "./EasterEgg";
 export default {
-    name: 'App',
-    data() {
-        return {
-            myData: '',
-            selectObj: [],
-            filterArr: [],
-            finallyFilterArr: [],
-            open: false,
-            openItem: false,
-            isBio: false,
-            isMat: false,
-            isGeo: false,
-            isRus: false,
-            isChe: false,
-            isObs: false,
-            isInf: false,
-            isEng: false,
-            isPhy: false,
-            isIst: false,
-            isIny: false,
-            isLit: false,
-            isGer: false,
-            isFre: false,
-            isTvo: false,
-            isRis: false
-        }
-    },
-    mounted() {
-        //обработал JSON падают ошибки буду думать
-        const userData = require('./data.json');
-        this.myData = userData;
-        this.myData = JSON.parse(JSON.stringify(this.myData))
-    },
+  name: 'App',
+  data() {
+    return {
+      myData: '',
+      selectObj: [],
+      filterArr: [],
+      finallyFilterArr: [],
+      open: false,
+      isBio: false,
+      isMat: false,
+      isGeo: false,
+      isRus: false,
+      isChe: false,
+      isObs: false,
+      isInf: false,
+      isEng: false,
+      isPhy: false,
+      isIst: false,
+      isIny: false,
+      isLit: false,
+      isGer: false,
+      isFre: false,
+      isTvo: false,
+      isRis: false
+    }
+  },
+  mounted() {
+    //обработал JSON падают ошибки буду думать
+    const userData = require('./data.json');
+    this.myData = userData;
+    this.myData = JSON.parse(JSON.stringify(this.myData))
+  },
 //    components: {
 //      EasterEgg
 //    },
-    methods: {
-        Click(name, isValue) {
-            this.open = false;
-            this.filterArr = [];
-            this.finallyFilterArr = [];
-            //проверяю, чтобы переведен чекбокс в true или false
-            if (isValue) {
-                this.selectObj.push(name)
-            } else {
-                let i = 0;
-                while (i < this.selectObj.length) {
-                    if (this.selectObj[i] === name) {
-                        this.selectObj.splice(i, 1);
-                    } else {
-                        ++i;
-                    }
-                }
-            }
-
-            //нет смысла искать элемент когда меньше 3 предметов
-            if (this.selectObj.length < 3) {
-                this.filterArr = [];
-                return false;
-            }
-
-            //сложная херовнина, но я бегу по всем элементам главного массива и собираю данные по валидному имени
-            //но при добовлениями новых пунктов докидывались новые и дублировались
-            for (let i = 0; i < this.myData.description.length; i++) {
-                let countObj = 0;
-                countObj = 0
-                //тут я смотрю какие предеметы выбраны и буду искать какие есть у него
-                for (let b = 0; b < this.selectObj.length; b++) {
-
-                    for (let key in this.myData.description[i].obj) {
-                        if (key === this.selectObj[b]) {
-                            countObj++
-                        }
-                        if (countObj === 3) {
-                            this.filterArr.push(this.myData.description[i])
-                            this.open = true;
-                        }
-                    }
-                }
-            }
-
-            this.filterArr.reduce((acc, n) => {
-                const i = acc.findIndex(m => m.id === n.id);
-                if (!~i || !acc[i].id) {
-                    acc.push(n);
-                    if (~i) {
-                        acc.splice(i, 1);
-                    }
-                }
-                this.finallyFilterArr = acc;
-                return acc;
-            }, [])
-        },
-
-      easterEgg() {
-        this.openItem = !this.openItem;
+  methods: {
+    Click(name, isValue) {
+      this.open = false;
+      this.filterArr = [];
+      this.finallyFilterArr = [];
+      //проверяю, чтобы переведен чекбокс в true или false
+      if (isValue) {
+        this.selectObj.push(name)
+      } else {
+        let i = 0;
+        while (i < this.selectObj.length) {
+          if (this.selectObj[i] === name) {
+            this.selectObj.splice(i, 1);
+          } else {
+            ++i;
+          }
+        }
       }
+
+      //нет смысла искать элемент когда меньше 3 предметов
+      if (this.selectObj.length < 3) {
+        this.filterArr = [];
+        return false;
+      }
+
+      //сложная херовнина, но я бегу по всем элементам главного массива и собираю данные по валидному имени
+      //но при добовлениями новых пунктов докидывались новые и дублировались
+      for (let i = 0; i < this.myData.description.length; i++) {
+        let countObj = 0;
+        countObj = 0
+        //тут я смотрю какие предеметы выбраны и буду искать какие есть у него
+        for (let b = 0; b < this.selectObj.length; b++) {
+
+          for (let key in this.myData.description[i].obj) {
+            if (key === this.selectObj[b]) {
+              countObj++
+            }
+            if (countObj === 3) {
+              this.filterArr.push(this.myData.description[i])
+              this.open = true;
+            }
+          }
+        }
+      }
+
+      this.filterArr.reduce((acc, n) => {
+        const i = acc.findIndex(m => m.id === n.id);
+        if (!~i || !acc[i].id) {
+          acc.push(n);
+          if (~i) {
+            acc.splice(i, 1);
+          }
+        }
+        this.finallyFilterArr = acc;
+        return acc;
+      }, [])
     },
+
+    easterEgg() {
+      this.openItem = !this.openItem;
+    }
+  },
 }
 </script>
 <style>
 * {
-    padding: 0;
-    margin: 0;
-    font-family: Lucida Grande, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: Lucida Grande, sans-serif;
+}
+
+#app {
+  height: calc(100vh + 100px);
+}
+
+.wrapper__body-header--header {
+  display: flex;
+  margin-bottom: 16px;
+  color: #555;
+  justify-content: center;
 }
 
 .wrapper__item {
@@ -263,176 +280,163 @@ export default {
 }
 
 .wrapper {
-    width: 100%;
+  width: 100%;
 }
 
 .wrapper__main-body {
-    width: 30%;
-    padding: 60px 0;
-    margin: 0 auto;
+  width: 40%;
+  padding: 60px 0;
+  margin: 0 auto;
 }
 
 
 .wrapper__header--img {
-    width: 80%;
-    margin-bottom: 10%;
-    margin-left: 10%;
-    background-size: 100% 160px;
-    background-repeat: no-repeat;
-    background-image: url(http://www.psu.ru/templates/xhtml/images/company.png);
-    display: inline-block;
-    height: 160px;
+  width: 80%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  background-repeat: no-repeat;
+  background-image: url(http://www.psu.ru/templates/xhtml/images/company.png);
+  display: inline-block;
+  height: 160px;
+  background-size: contain;
 }
 
 .wrapper__body {
-    background-color: #fff;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .wrapper__body-header {
-    padding: 35px;
+  padding: 35px;
 }
 
 .wrapper__body-header--desc {
-    text-align: justify;
-    font-size: 20px;
-    line-height: 1.5em;
-    font-style: normal;
-    margin: 3px 0 0;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.5em;
+  font-style: normal;
+  margin: 3px 0 0;
 }
 
 .wrapper__body-header--desc_sub {
-    text-align: justify;
-    font-size: 14px;
-    line-height: 1.5em;
-    font-style: normal;
-    margin: 3px 0 0;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-style: normal;
+  margin: 3px 0 0;
 }
 
 .text {
-    color: #555;
-    font-family: Arial;
+  color: #555;
+  font-family: Arial;
 }
 
 .wrapper__body-cb {
-    border-top: 2px #e6e6e6 solid;
+  border-top: 2px #e6e6e6 solid;
 }
 
 .wrapper__cb {
-    max-width: 100%;
-    height: 100%;
-    display: flex;
-    position: relative;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
 }
 
 .wrapper__cb-item {
-    position: relative;
-    flex: 1 1 100%;
-    padding-bottom: 5px;
+  position: relative;
+  flex: 1 1 100%;
+  padding-bottom: 5px;
 }
 
 .wrapper__cb-items {
-    min-width: 50%;
-    max-width: 50%;
+  min-width: 50%;
+  max-width: 50%;
 }
 
 .wrapper__cb-item input {
-    position: absolute;
-    top: -2.5px;
-    height: 100%;
-    cursor: pointer;
+  position: absolute;
+  top: -2.5px;
+  height: 100%;
+  cursor: pointer;
 }
 
 .wrapper__cb-item label {
-    font-size: 18px;
-    font-family: Arial;
-    padding-left: 25px;
-    cursor: pointer;
+  font-size: 18px;
+  font-family: Arial;
+  padding-left: 25px;
+  cursor: pointer;
 }
 
 .wrapper__footer--none {
-    transition: 0.5s;
-    height: 0;
+  transition: 0.5s;
+  height: 0;
 }
 
 .wrapper__footer--padding {
-    padding: 35px;
-    transition: 0.5s;
+  padding-top: 35px;
+  transition: 0.5s;
 }
 
 .wrapper__footer--padding-none {
-    padding: 0;
-    transition: 0.5s;
+  padding: 0;
+  transition: 0.5s;
 }
 
 .wrapper__footer-text--opacity {
-    opacity: 1;
-    transition: 0.5s;
+  opacity: 1;
+  transition: 0.5s;
 }
 
 .wrapper__footer-text--none {
-    height: 0;
-    opacity: 0;
-    transition: 0.5s;
+  height: 0;
+  opacity: 0;
+  transition: 0.5s;
 }
 
 .footer__footer {
-    font-size: 14px;
-    line-height: 20px;
+  padding: 0 35px;
+  font-size: 14px;
+  line-height: 20px;
 }
+
 a:link {
-    color: #C62E3E; /* Цвет ссылок */   
+  color: #C62E3E; /* Цвет ссылок */
 }
-a:active{   
-    color: #C62E3E; /* Цвет активной ссылки */   
+
+a:active {
+  color: #C62E3E; /* Цвет активной ссылки */
 }
-a:visited{   
-    color: #C62E3E; /* Цвет посещенной ссылки */   
+
+a:visited {
+  color: #C62E3E; /* Цвет посещенной ссылки */
 }
 
 @media screen and (max-width: 1600px) {
-    .wrapper__main-body {
-        width: 70%;
-    }
+  .wrapper__main-body {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .wrapper__main-body {
-        width: 70%;
-    }
+  .wrapper__main-body {
+    width: 70%;
+  }
 }
 
-@media screen and (max-width: 650px) {
-    .wrapper__main-body {
-        width: 100%;
-    }
+@media screen and (max-width: 750px) {
+  .wrapper__main-body {
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 650px) {
-    .wrapper__main-body {
-        width: 100%;
-    }
-}
+@media screen and (max-width: 700px) {
+  .wrapper__cb {
+    flex-wrap: wrap;
+  }
 
-@media screen and (max-width: 500px) {
-    .wrapper__cb {
-        flex-wrap: wrap;
-    }
-
-    .wrapper__cb-items {
-        min-width: 100%;
-        max-width: 100%;
-    }
-
-    .wrapper__header--img {
-        width: 80%;
-        margin-top: 10%;
-        margin-left: 10%;
-        background-size: 100% 100px;
-        background-repeat: no-repeat;
-        background-image: url(http://www.psu.ru/templates/xhtml/images/company.png);
-        display: inline-block;
-        height: 120px;
-    }
+  .wrapper__cb-items {
+    min-width: 100%;
+    max-width: 100%;
+  }
 }
 </style>

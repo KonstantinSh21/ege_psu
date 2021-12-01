@@ -15,7 +15,7 @@
                         <div class="wrapper__body-header--desc text">
                             Выбери предметы, которые ты сдаешь в форме ЕГЭ. Ниже под формой ты увидишь направления
                             ПГНИУ, куда можешь
-                            подать документы в 2021 году, и минимальные баллы.
+                            подать документы в 2022 году, и минимальные баллы.
                         </div>
                         <div class="wrapper__body-header--desc_sub text">
                             * - внутренние экзамены ПГНИУ
@@ -26,87 +26,72 @@
               <div class="wrapper__cb">
                 <div class="wrapper__cb-items">
                   <div class="wrapper__cb-item">
-                    <!--                    //Биология              bio 39-->
-                    <!--                    //Математика            mat 39-->
-                    <!--                    //Геогрфия              geo 40-->
-                    <!--                    //Русский язык          rus 40-->
-                    <!--                    //Химия                 che 39-->
-                    <!--                    //Обществознание        obs 45-->
-                    <!--                    //Информатика и ИКТ     inf 44-->
-                    <!--                    //Английский            eng 30-->
-                    <!--                    //Физика                phy 39-->
-                    <!--                    //История               ist 35-->
-                    <!--                    //Иностранный язык      iny 30-->
-                    <!--                    //Литература            lit 40-->
-                    <!--                    //Немецкий язык         ger 30-->
-                    <!--                    //Французский язык      fre 30-->
-                    <!--                    //Творческая работа     tvo 50-->
-                    <!--                    //Рисунок               ris 50-->
-                    <input @click="Click('rus', !isRus)" v-model="isRus" type="checkbox" id="rus"/>
-                    <label for="rus">Русский язык <b>(40)</b></label>
-                  </div>
-                  <div class="wrapper__cb-item">
-                    <input @click="Click('mat', !isMat)" v-model="isMat" type="checkbox" id="mat"/>
-                    <label for="mat">Математика <b>(39)</b></label>
-                  </div>
-                  <div class="wrapper__cb-item">
-                    <input @click="Click('inf', !isInf)" v-model="isInf" type="checkbox" id="inf"/>
-                    <label for="inf">Информатика и ИКТ <b>(44)</b></label>
-                  </div>
-                  <div class="wrapper__cb-item">
-                    <input @click="Click('phy', !isPhy)" v-model="isPhy" type="checkbox" id="phy"/>
-                    <label for="phy">Физика <b>(39)</b></label>
-                  </div>
-                  <div class="wrapper__cb-item">
-                    <input @click="Click('geo', !isGeo)" v-model="isGeo" type="checkbox" id="geo"/>
-                    <label for="geo">География <b>(40)</b></label>
-                  </div>
-                  <div class="wrapper__cb-item">
                     <input @click="Click('eng', !isEng)" v-model="isEng" type="checkbox" id="eng"/>
                     <label for="eng">Английский язык <b>(30)</b></label>
-                  </div>
-                  <div class="wrapper__cb-item">
-                    <input @click="Click('fre', !isFre)" v-model="isFre" type="checkbox" id="fre"/>
-                    <label for="fre">Французский язык <b>(30)</b></label>
-                  </div>
-                  <div class="wrapper__cb-item">
-                    <input @click="Click('lit', !isLit)" v-model="isLit" type="checkbox" id="lit"/>
-                    <label for="lit">Литература <b>(40)</b></label>
-                  </div>
-                </div>
-                <div class="wrapper__cb-items">
-                  <div class="wrapper__cb-item">
-                    <input @click="Click('ist', !isIst)" v-model="isIst" type="checkbox" id="ist"/>
-                    <label for="ist">История <b>(35)</b></label>
-                  </div>
-                  <div class="wrapper__cb-item">
-                    <input @click="Click('obs', !isObs)" v-model="isObs" type="checkbox" id="obs"/>
-                    <label for="obs">Обществознание <b>(45)</b></label>
-                  </div>
-                  <div class="wrapper__cb-item">
-                    <input @click="Click('che', !isChe)" v-model="isChe" type="checkbox" id="che"/>
-                    <label for="che">Химия <b>(39)</b></label>
                   </div>
                   <div class="wrapper__cb-item">
                     <input @click="Click('bio', !isBio)" v-model="isBio" type="checkbox" id="bio"/>
                     <label for="bio">Биология <b>(39)</b></label>
                   </div>
                   <div class="wrapper__cb-item">
+                    <input @click="Click('geo', !isGeo)" v-model="isGeo" type="checkbox" id="geo"/>
+                    <label for="geo">География <b>(40)</b></label>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('iny', !isIny)" v-model="isIny" type="checkbox" id="iny"/>
+                    <label for="iny">Другой иностранный язык <b>(30)</b></label>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('inf', !isInf)" v-model="isInf" type="checkbox" id="inf"/>
+                    <label for="inf">Информатика и ИКТ <b>(44)</b></label>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('ist', !isIst)" v-model="isIst" type="checkbox" id="ist"/>
+                    <label for="ist">История <b>(35)</b></label>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('lit', !isLit)" v-model="isLit" type="checkbox" id="lit"/>
+                    <label for="lit">Литература <b>(40)</b></label>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('mat', !isMat)" v-model="isMat" type="checkbox" id="mat"/>
+                    <label for="mat">Математика <b>(39)</b></label>
+                  </div>
+                </div>
+                <div class="wrapper__cb-items">
+                  <div class="wrapper__cb-item">
                     <input @click="Click('ger', !isGer)" v-model="isGer" type="checkbox" id="ger"/>
                     <label for="ger">Немецкий язык <b>(30)</b></label>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('obs', !isObs)" v-model="isObs" type="checkbox" id="obs"/>
+                    <label for="obs">Обществознание <b>(45)</b></label>
                   </div>
                   <div class="wrapper__cb-item">
                     <input @click="Click('ris', !isRis)" v-model="isRis" type="checkbox" id="ris"/>
                     <label for="ris">Рисунок* <b>(50)</b></label>
                   </div>
                   <div class="wrapper__cb-item">
+                    <input @click="Click('rus', !isRus)" v-model="isRus" type="checkbox" id="rus"/>
+                    <label for="rus">Русский язык <b>(40)</b></label>
+                  </div>
+                  <div class="wrapper__cb-item">
                     <input @click="Click('tvo', !isTvo)" v-model="isTvo" type="checkbox" id="tvo"/>
                     <label for="tvo">Творческая работа* <b>(50)</b></label>
                   </div>
                   <div class="wrapper__cb-item">
-                    <input @click="Click('iny', !isIny)" v-model="isIny" type="checkbox" id="iny"/>
-                    <label for="iny">Другой иностранный язык <b>(30)</b></label>
+                    <input @click="Click('phy', !isPhy)" v-model="isPhy" type="checkbox" id="phy"/>
+                    <label for="phy">Физика <b>(39)</b></label>
                   </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('fre', !isFre)" v-model="isFre" type="checkbox" id="fre"/>
+                    <label for="fre">Французский язык <b>(30)</b></label>
+                  </div>
+                  <div class="wrapper__cb-item">
+                    <input @click="Click('che', !isChe)" v-model="isChe" type="checkbox" id="che"/>
+                    <label for="che">Химия <b>(39)</b></label>
+                  </div>
+
                 </div>
               </div>
             </div>

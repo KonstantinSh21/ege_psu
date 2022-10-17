@@ -1,5 +1,5 @@
-# ege_psu
-### 123
+# Калькулятор ЕГЭ для ПГНИУ
+> http://www.psu.ru/ege/
 ## Project setup
 ```
 npm install
